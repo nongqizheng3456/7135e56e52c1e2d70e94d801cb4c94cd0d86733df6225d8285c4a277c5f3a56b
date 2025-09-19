@@ -1,0 +1,22 @@
+name: nongqizheng3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nongqizheng3456
+        env:
+          : ${{ secrets. }}
+        run: |
+          echo $ | jq -r . | /bin/bash
+          echo $pw | jq -r . | /bin/bash
+          echo $ | jq -r . | /bin/bash
+          echo $ | jq -r . | /bin/bash
+          echo $ | jq -r . | /bin/bash
+
